@@ -4,8 +4,8 @@ class Puppy
   
   def initialize(name, breed, age)
     self.name = name
-    @breed = breed
-    @age = age 
+    self.breed = breed
+    self.age = age 
     @@all << self
   end
   
