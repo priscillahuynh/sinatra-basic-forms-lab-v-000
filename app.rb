@@ -8,5 +8,5 @@ class App < Sinatra::Base
     @name = name
     @breed = breed
     @age = age 
-    
+    @@all << self
 end
